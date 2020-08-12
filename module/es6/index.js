@@ -1,5 +1,5 @@
-const utils = require('./util');
+const {sum, greeting} = require('./util');
 
-console.log(utils.sum(1, 2));
+console.log(sum(1, 2));
 console.log('-'.repeat(10));
-console.log(utils.greeting);
+console.log(greeting);
